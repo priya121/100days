@@ -1,0 +1,14 @@
+img {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+}
