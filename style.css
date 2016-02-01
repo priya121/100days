@@ -1,6 +1,6 @@
 img {
     display: block;
-    width: 600px;
+    width: 400px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -9,6 +9,25 @@ li {
     list-style: none;
 }
 
-h2 {
+h1 {
     text-align: center;
+    font-family: 'Inconsolata';
+    font-size: 50px;
+    margin-bottom: 150px;
+    text-decoration: none; 
+}
+
+h1 a {
+    text-decoration: none; 
+    color: #284469;
+}
+
+h2 {
+    font-family: 'Inconsolata';
+    color: #285869;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+body {
 }

@@ -3,7 +3,7 @@ var feed = new Instafeed({
     userId: '26981234',
     accessToken: '26981234.1677ed0.f2593aabfac04e08940ab8f636676206',
     resolution: 'standard_resolution',
-    template: '<li> <h2 class="day-number"> </h2> <a href="{{link}}"><img src="{{image}}" /></a></li>',
+    template: '<li> <a href="{{link}}"><img src="{{image}}""{{caption}}" /></a><h2 class="day-number"> </h2> </li>',
     filter: function(image) {
         return image.tags.indexOf('100days100photos') >=0;
     },
